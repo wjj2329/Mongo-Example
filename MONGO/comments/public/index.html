@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wedding Invite</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body background="http://eskipaper.com/images/wedding-backgrounds-2.jpg">
+
+<h1>
+You are Cordially invited to the wedding of Ariel and Dan 
+</h1>
+<p>
+Our story began in March 2008 at LaGuardia Airport in New York. We were both going back to school in Atlanta. After a mutual friend introduced us we realized our seats were very close to each other. Dan could tell that Ariel, a classic nervous flyer, could use some support. A pretty turbulent flight allowed us to get to know each other. Throughout the rest of the semester we became good friends. As summer approached, we learned that we would be interning across the street from each other. After having lunch together every day that summer we both knew it was only a matter of time. When we got back to school for fall semester the rest was history!
+</p>
+<div id="photo">
+<img src="http://www.weddingcardmessage.com/wp-content/uploads/2014/11/general-wedding-card-messages.jpg" height=500px   width=500px></img>
+</div>
+
+<form id="commentForm" action="">
+<label for="name">First and Last Name: </label><input type="text" id="Name" placeholder="Name"><br>
+<label for="comment">Full Email Address: </label><input type="text" id="Comment" placeholder="Email Address"><br>
+</form>
+
+
+<button id="serialize"class ='btn btn-success'>RSVP with your name and email address here!</button>
+<button id="getThem"class='btn btn-primary'>List of who is comming</button>
+<div id="json"></div>
+<div id="done"></div>
+<div id="comments"></div>
+</body>
+</html>

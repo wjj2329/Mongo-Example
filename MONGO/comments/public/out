@@ -1,0 +1,12 @@
+nohup: ignoring input
+
+> comments@0.0.0 start /home/bitnami/MONGO/comments
+> node ./bin/www
+
+Connected
+[0mGET / [36m304 [0m6.695 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.878 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.572 ms - -[0m
+[0mGET / [36m304 [0m0.548 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.978 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.910 ms - -[0m
