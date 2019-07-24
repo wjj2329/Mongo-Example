@@ -1,22 +1,20 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/opt/bitnami/nodejs/bin/.node.bin',
-1 verbose cli   '/opt/bitnami/nodejs/bin/npm',
-1 verbose cli   'start' ]
-2 info using npm@3.3.12
-3 info using node@v5.4.0
-4 verbose config Skipping project config: /home/bitnami/.npmrc. (matches userconfig)
-5 verbose stack Error: ENOENT: no such file or directory, open '/home/bitnami/package.json'
-5 verbose stack     at Error (native)
-6 verbose cwd /home/bitnami/MONGO
-7 error Linux 3.13.0-76-generic
-8 error argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
-9 error node v5.4.0
-10 error npm  v3.3.12
-11 error path /home/bitnami/package.json
-12 error code ENOENT
-13 error errno -2
-14 error syscall open
-15 error enoent ENOENT: no such file or directory, open '/home/bitnami/package.json'
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'start' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose stack Error: ENOENT: no such file or directory, open '/mnt/c/Users/wjones/desktop/github/Mongo-Example/MONGO/package.json'
+4 verbose stack     at Error (native)
+5 verbose cwd /mnt/c/Users/wjones/desktop/github/Mongo-Example/MONGO
+6 error Linux 4.4.0-18362-Microsoft
+7 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+8 error node v4.2.6
+9 error npm  v3.5.2
+10 error path /mnt/c/Users/wjones/desktop/github/Mongo-Example/MONGO/package.json
+11 error code ENOENT
+12 error errno -2
+13 error syscall open
+14 error enoent ENOENT: no such file or directory, open '/mnt/c/Users/wjones/desktop/github/Mongo-Example/MONGO/package.json'
+15 error enoent ENOENT: no such file or directory, open '/mnt/c/Users/wjones/desktop/github/Mongo-Example/MONGO/package.json'
 15 error enoent This is most likely not a problem with npm itself
 15 error enoent and is related to npm not being able to find a file.
 16 verbose exit [ -2, true ]
